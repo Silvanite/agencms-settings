@@ -34,7 +34,7 @@ class SettingsController extends Controller
      */
     public function store(Request $request, string $section = null)
     {
-        collect($request->all())->each(function ($value, $key) {
+        collect($request->all())->each(function ($value, $key) use ($section) {
             if (is_array($value)) {
                 $value = json_encode($value);
             }
