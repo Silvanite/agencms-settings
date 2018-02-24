@@ -4,13 +4,15 @@ namespace Silvanite\AgencmsSettings\Providers;
 
 use Illuminate\Routing\Router;
 use Silvanite\Brandenburg\Policy;
+use Illuminate\Support\Facades\Gate;
 use Silvanite\Brandenburg\Permission;
 use Illuminate\Contracts\Http\Kernel;
 use Silvanite\Agencms\Facades\Agencms;
 use Illuminate\Support\ServiceProvider;
 use Silvanite\Brandenburg\Traits\ValidatesPermissions;
+use Silvanite\AgencmsSettings\Middleware\AgencmsConfig;
 
-class SettingsAuthServiceProvider extends ServiceProvider
+class SettingsServiceProvider extends ServiceProvider
 {
     use ValidatesPermissions;
 
@@ -24,7 +26,6 @@ class SettingsAuthServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../Database/Migrations');
 
         $this->registerApiRoutes();
-        $this->registerPolicies();
 
         $this->registerAgencms($router);
     }
@@ -38,7 +39,7 @@ class SettingsAuthServiceProvider extends ServiceProvider
      */
     private function registerAgencms(Router $router)
     {
-        $router->aliasMiddleware('agencms.settings', Agencms::class);
+        $router->aliasMiddleware('agencms.settings', AgencmsConfig::class);
         Agencms::registerPlugin('agencms.settings');
     }
 
