@@ -450,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ebbefd8723125d094a09c940ff27919b9ae9f2d1"
+                "reference": "c466c775a0abcd6234dda8dbcae36bd4b2003182"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ebbefd8723125d094a09c940ff27919b9ae9f2d1",
-                "reference": "ebbefd8723125d094a09c940ff27919b9ae9f2d1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c466c775a0abcd6234dda8dbcae36bd4b2003182",
+                "reference": "c466c775a0abcd6234dda8dbcae36bd4b2003182",
                 "shasum": ""
             },
             "require": {
@@ -538,6 +538,7 @@
                 "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
                 "league/flysystem-cached-adapter": "Required to use Flysystem caching (~1.0).",
                 "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
+                "league/flysystem-sftp": "Required to use the Flysystem SFTP driver (~1.0).",
                 "nexmo/client": "Required to use the Nexmo transport (~1.0).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
                 "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
@@ -577,7 +578,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-02-23T18:05:37+00:00"
+            "time": "2018-02-27T17:04:24+00:00"
         },
         {
             "name": "league/flysystem",
@@ -585,12 +586,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f6d210103196db2b9e3ed63e31e3a4fe35c15b51"
+                "reference": "6d4f5e757758be6663460f0489067bec9dafb23f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f6d210103196db2b9e3ed63e31e3a4fe35c15b51",
-                "reference": "f6d210103196db2b9e3ed63e31e3a4fe35c15b51",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/6d4f5e757758be6663460f0489067bec9dafb23f",
+                "reference": "6d4f5e757758be6663460f0489067bec9dafb23f",
                 "shasum": ""
             },
             "require": {
@@ -661,7 +662,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-02-21T11:44:30+00:00"
+            "time": "2018-02-25T14:01:26+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -747,12 +748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "b1ab4a10fc9f5d6931cfb9f0030fd67c8845813f"
+                "reference": "bee07217330b391601dde67ead27b0ae2f24be58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b1ab4a10fc9f5d6931cfb9f0030fd67c8845813f",
-                "reference": "b1ab4a10fc9f5d6931cfb9f0030fd67c8845813f",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bee07217330b391601dde67ead27b0ae2f24be58",
+                "reference": "bee07217330b391601dde67ead27b0ae2f24be58",
                 "shasum": ""
             },
             "require": {
@@ -761,7 +762,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "~2",
-                "phpunit/phpunit": "~4.0 || ~5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7"
             },
             "type": "library",
             "extra": {
@@ -792,7 +793,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-02-23T09:57:29+00:00"
+            "time": "2018-02-27T11:15:38+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1072,12 +1073,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Silvanite/agencms.git",
-                "reference": "dbf54801ae917bcd8525df34b2632603f31b6723"
+                "reference": "eee6df2838bf3dc95b015cfd8dd8d88b1449d893"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Silvanite/agencms/zipball/dbf54801ae917bcd8525df34b2632603f31b6723",
-                "reference": "dbf54801ae917bcd8525df34b2632603f31b6723",
+                "url": "https://api.github.com/repos/Silvanite/agencms/zipball/eee6df2838bf3dc95b015cfd8dd8d88b1449d893",
+                "reference": "eee6df2838bf3dc95b015cfd8dd8d88b1449d893",
                 "shasum": ""
             },
             "require": {
@@ -1114,7 +1115,7 @@
                 }
             ],
             "description": "Laravel CMS Library for Agencms",
-            "time": "2018-02-16T20:44:52+00:00"
+            "time": "2018-02-27T21:09:11+00:00"
         },
         {
             "name": "silvanite/agencms-auth",
@@ -1215,12 +1216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "027e4d7958f61f3a45d70e2befe37546a4217283"
+                "reference": "f5f8daa92a4ab69fad7dfdb949dc635510a6ea81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/027e4d7958f61f3a45d70e2befe37546a4217283",
-                "reference": "027e4d7958f61f3a45d70e2befe37546a4217283",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f5f8daa92a4ab69fad7dfdb949dc635510a6ea81",
+                "reference": "f5f8daa92a4ab69fad7dfdb949dc635510a6ea81",
                 "shasum": ""
             },
             "require": {
@@ -1266,7 +1267,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2018-02-14T07:46:01+00:00"
+            "time": "2018-02-27T06:34:13+00:00"
         },
         {
             "name": "symfony/console",
@@ -1274,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "4199103a660314523914319a80b3a6ab8a6ea64d"
+                "reference": "8a8364cb4a03ffdbb4228f91401c2d9752e2e857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/4199103a660314523914319a80b3a6ab8a6ea64d",
-                "reference": "4199103a660314523914319a80b3a6ab8a6ea64d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8a8364cb4a03ffdbb4228f91401c2d9752e2e857",
+                "reference": "8a8364cb4a03ffdbb4228f91401c2d9752e2e857",
                 "shasum": ""
             },
             "require": {
@@ -1334,7 +1335,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-23T13:20:15+00:00"
+            "time": "2018-02-26T17:04:28+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -1866,12 +1867,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "896ca0770f03f0b43bc4b903523f518d060ad420"
+                "reference": "f45e4898880fcd55c2522818a4e91007b9c8dc16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/896ca0770f03f0b43bc4b903523f518d060ad420",
-                "reference": "896ca0770f03f0b43bc4b903523f518d060ad420",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/f45e4898880fcd55c2522818a4e91007b9c8dc16",
+                "reference": "f45e4898880fcd55c2522818a4e91007b9c8dc16",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1937,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-02-22T08:38:25+00:00"
+            "time": "2018-02-26T18:13:01+00:00"
         },
         {
             "name": "symfony/translation",
@@ -2012,12 +2013,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "383903337b9aff65e1933684855efa4fc2456eec"
+                "reference": "d4c616cad12cc3299b2fe58f630998ddecf5a802"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/383903337b9aff65e1933684855efa4fc2456eec",
-                "reference": "383903337b9aff65e1933684855efa4fc2456eec",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/d4c616cad12cc3299b2fe58f630998ddecf5a802",
+                "reference": "d4c616cad12cc3299b2fe58f630998ddecf5a802",
                 "shasum": ""
             },
             "require": {
@@ -2073,7 +2074,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-01-31T10:41:42+00:00"
+            "time": "2018-02-26T17:04:28+00:00"
         },
         {
             "name": "thesold/laravel-media-manager",
@@ -2176,12 +2177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "ec37c495d56b68f103acafa95fec5ed39b14d7db"
+                "reference": "90b2f4112475578eb60269266e79514e1b4128b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/ec37c495d56b68f103acafa95fec5ed39b14d7db",
-                "reference": "ec37c495d56b68f103acafa95fec5ed39b14d7db",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/90b2f4112475578eb60269266e79514e1b4128b6",
+                "reference": "90b2f4112475578eb60269266e79514e1b4128b6",
                 "shasum": ""
             },
             "require": {
@@ -2218,7 +2219,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2017-11-24T14:28:50+00:00"
+            "time": "2018-01-28T23:08:18+00:00"
         }
     ],
     "packages-dev": [
@@ -2228,12 +2229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5f2cdef533ce14dc2d74252b3bbadac05076c1c9"
+                "reference": "e2a3e465b6a6f7cbd50eaa8a6ed5c47dbe5de641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5f2cdef533ce14dc2d74252b3bbadac05076c1c9",
-                "reference": "5f2cdef533ce14dc2d74252b3bbadac05076c1c9",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/e2a3e465b6a6f7cbd50eaa8a6ed5c47dbe5de641",
+                "reference": "e2a3e465b6a6f7cbd50eaa8a6ed5c47dbe5de641",
                 "shasum": ""
             },
             "require": {
@@ -2271,7 +2272,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-21T00:37:04+00:00"
+            "time": "2018-02-27T04:40:58+00:00"
         }
     ],
     "aliases": [],
