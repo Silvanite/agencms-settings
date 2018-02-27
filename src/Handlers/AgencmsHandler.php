@@ -37,7 +37,7 @@ class AgencmsHandler
     private static function registerSettings()
     {
         Agencms::registerRoute(
-            Route::initSingle('settings', 'Settings', '/agencms/settings/global')
+            Route::initSingle('settings', ['Settings' => 'Global Settings'], '/agencms/settings/global')
                 ->addGroup(
                     Group::full('Global Settings')->addField(
                         Field::boolean('maintenance', 'Maintenance mode')
