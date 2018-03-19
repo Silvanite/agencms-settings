@@ -2,15 +2,15 @@
 
 namespace Silvanite\AgencmsSettings\Handlers;
 
-use Silvanite\Agencms\Route;
-use Silvanite\Agencms\Field;
-use Silvanite\Agencms\Group;
-use Silvanite\Agencms\Option;
+use Agencms\Core\Route;
+use Agencms\Core\Field;
+use Agencms\Core\Group;
+use Agencms\Core\Option;
 use Silvanite\Brandenburg\Policy;
-use Silvanite\Agencms\Relationship;
+use Agencms\Core\Relationship;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
-use Silvanite\Agencms\Facades\Agencms;
+use Agencms\Core\Facades\Agencms;
 use Silvanite\AgencmsSettings\Settings;
 
 class AgencmsHandler

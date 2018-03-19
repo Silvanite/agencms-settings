@@ -7,7 +7,7 @@ use Silvanite\Brandenburg\Policy;
 use Illuminate\Support\Facades\Gate;
 use Silvanite\Brandenburg\Permission;
 use Illuminate\Contracts\Http\Kernel;
-use Silvanite\Agencms\Facades\Agencms;
+use Agencms\Core\Facades\Agencms;
 use Illuminate\Support\ServiceProvider;
 use Silvanite\Brandenburg\Traits\ValidatesPermissions;
 use Silvanite\AgencmsSettings\Middleware\AgencmsConfig;
