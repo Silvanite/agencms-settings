@@ -14,8 +14,13 @@ class SettingsController extends Controller
      */
     public function index(string $section = null)
     {
-        return Settings::where('section', '=', $section)
+        return Settings::whereSection($section)
             ->get()
+            ->push([
+                'key' => "__{$section}_settings",
+                'section' => $section,
+                'value' => 'active',
+            ])
             ->mapWithKeys(function ($item) {
                 $returnValue = json_decode($item['value']);
                 if (json_last_error() !== JSON_ERROR_NONE) {
