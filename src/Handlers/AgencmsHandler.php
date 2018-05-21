@@ -40,7 +40,7 @@ class AgencmsHandler
             Route::initSingle('settings', ['Settings' => 'Global Settings'], '/agencms/settings/global')
                 ->addGroup(
                     Group::full('Global Settings')->addField(
-                        Field::boolean('maintenance', 'Maintenance mode')
+                        Field::text('application-name', 'Application Name')
                     )
                 )
         );
