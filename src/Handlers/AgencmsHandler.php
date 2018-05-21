@@ -40,7 +40,7 @@ class AgencmsHandler
             Route::initSingle('settings', ['Settings' => 'Global Settings'], '/agencms/settings/global')
                 ->addGroup(
                     Group::full('Global Settings')->addField(
-                        Field::text('application-name', 'Application Name')
+                        Field::string('application-name', 'Application Name')
                     )
                 )
         );
