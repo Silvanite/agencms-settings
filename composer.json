@@ -1,5 +1,5 @@
 {
-    "name": "silvanite/agencms-settings",
+    "name": "agencms/settings",
     "description": "Settings module for Agencms",
     "type": "library",
     "license": "Apache-2.0",
@@ -9,7 +9,6 @@
             "email": "marco@silvanite.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Agencms\\Settings\\": "src/"
