@@ -1,9 +1,9 @@
 <?php
 
-namespace Silvanite\AgencmsSettings\Controllers;
+namespace Agencms\Settings\Controllers;
 
 use Illuminate\Http\Request;
-use Silvanite\AgencmsSettings\Settings;
+use Agencms\Settings\Settings;
 
 class SettingsController extends Controller
 {

@@ -12,13 +12,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Silvanite\\AgencmsSettings\\": "src/"
+            "Agencms\\Settings\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Silvanite\\AgencmsSettings\\Providers\\SettingsServiceProvider"
+                "Agencms\\Settings\\Providers\\SettingsServiceProvider"
             ]
         }
     },

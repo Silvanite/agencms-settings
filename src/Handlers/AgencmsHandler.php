@@ -1,17 +1,17 @@
 <?php
 
-namespace Silvanite\AgencmsSettings\Handlers;
+namespace Agencms\Settings\Handlers;
 
-use Agencms\Core\Route;
 use Agencms\Core\Field;
 use Agencms\Core\Group;
+use Agencms\Core\Route;
 use Agencms\Core\Option;
-use Silvanite\Brandenburg\Policy;
 use Agencms\Core\Relationship;
+use Agencms\Settings\Settings;
+use Agencms\Core\Facades\Agencms;
+use Silvanite\Brandenburg\Policy;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
-use Agencms\Core\Facades\Agencms;
-use Silvanite\AgencmsSettings\Settings;
 
 class AgencmsHandler
 {

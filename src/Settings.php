@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\AgencmsSettings;
+namespace Agencms\Settings;
 
 use Illuminate\Database\Eloquent\Model;
 
