@@ -39,8 +39,8 @@ class SettingsServiceProvider extends ServiceProvider
      */
     private function registerAgencms(Router $router)
     {
-        $router->aliasMiddleware('agencms.settings', AgencmsConfig::class);
-        Agencms::registerPlugin('agencms.settings');
+        $router->aliasMiddleware('_agencms.settings', AgencmsConfig::class);
+        Agencms::registerPlugin('_agencms.settings');
     }
 
     /**
